@@ -2681,7 +2681,7 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #4FD4AD;
+			background-color: #eb9d65;
 			/*background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("../../images/tree.jpg");*/
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -2695,26 +2695,6 @@
 				width: 100vw;
 				height: 100vh;
 			}
-
-/*		#wrapper.fade-in:before {
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
-			pointer-events: none;
-			background-color: #4FD4AD;
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: fixed;
-			top: 0;
-			width: 100%;
-		}*/
-/*
-		body.is-loading #wrapper.fade-in:before {
-			opacity: 1;
-		}*/
 
 		@media screen and (orientation: portrait) {
 
