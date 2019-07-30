@@ -1616,7 +1616,7 @@
 	}
 
 	body {
-		background-color: #4FD4AD;
+		background-color: #eb9d65;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2406,7 +2406,7 @@
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0;
 			text-align: center;
 		}
 
@@ -3455,16 +3455,16 @@
 			text-align: center;
 		}
 
-		#main > .post {
+		/*#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
-		}
+		}*/
 
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
+				font-size: 2.5rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
