@@ -1,9 +1,8 @@
 ---
 layout: calendar
-title: Events Calendar
+title: LUGOD Events List
+csv_file: /events.csv
+caption: LUGOD Events List
 
-calendar_timezone_offset: -0800   # required
-calendar_caption: LUGOD Events   # optional
 ---
 
-[No Javascript Calendar]({{ site.baseurl }}{% link pages/noscript_calendar.md %})
