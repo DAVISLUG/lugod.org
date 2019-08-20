@@ -1,17 +1,36 @@
-# The LUGOD Website
+# LUGOD Website
 
-This site runs on Jekyll.
+This repo holds the codebase and content for the new LUGOD website.
 
-To setup an instance of the site, first clone this repo.
+## Contributing
 
-To run via Docker, simply run `docker-compose up`. This should give you a running Jekyll instance on http://0.0.0.0:4000
+To setup a local copy of the site, first clone this repo:
+```
+git clone https://github.com/DAVISLUG/lugod.org.git
+```
 
-To run via Jekyll, install Jekyll to your machine and then run `bundle exec jekyll serve --incremental` in this directory.
+### Docker
 
-To add a meeting, add a row to the `_data/events.csv` file. Make sure to use the proper datetime format for Jekyll to process datetime logic for things like the "next upcoming meeting".
+To run the site in a Docker container, simply run `docker-compose up`. This should give you a running Jekyll instance on http://localhost:4000/lugod
 
-To add a new blog post, add it to the `/_posts/` directory and it will show up in the blog. You can use existing posts as a reference for proper filename format and [front matter](https://jekyllrb.com/docs/front-matter/).
+### Gem
 
-Markdown is supported, so files ending with `.md` can be written as Markdown and will be rendered as HTML.
+To run the site via Jekyll in the traditional way, follow the instructions [here](https://jekyllrb.com/docs/) to install and run Jekyll on your local machine. Run the command `bundle exec jekyll serve --incremental` in the root of this repository, and you should have a site running locally at http://localhost:4000/lugod
 
-To add a new page, add it to the `/pages` directory. Adding a `mypage.md` file to the `/pages` folder will create a new linkable page at the route `example.com/pages/mypage`.
+## Adding Content
+
+### Add A Meeting
+
+To add a new meeting to the site, simply add a row to the `_data/events.csv` file. Make sure to use the proper datetime format or it won't be prcessed correctly (use the other listed items as a reference).
+
+### Markdown
+
+Markdown is supported, so files that end with `.md` will be rendered as HTML by Jekyll.
+
+### Add A Blog Post
+
+To add a new blog post, add it to the `/_posts/` directory. Use existing posts as a reference to ensure proper filename format and [front matter](https://jekyllrb.com/docs/front-matter/).
+
+### Add A New Page
+
+To add a new general page (like an "About Us" page), add it to the `/pages` directory. Adding a file named `newpage.md` to the `/pages` folder will create a new linkable page at the route `example.com/pages/mypage`. To add this page to the navbar, edit the `_includes/nav.html` file and add your new page.
