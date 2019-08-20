@@ -13,9 +13,9 @@ git clone https://github.com/DAVISLUG/lugod.org.git
 
 To run the site in a Docker container, simply run `docker-compose up`. This should give you a running Jekyll instance on http://localhost:4000/lugod
 
-### Gem
+### Jekyll + Bundler
 
-To run the site via Jekyll in the traditional way, follow the instructions [here](https://jekyllrb.com/docs/) to install and run Jekyll on your local machine. Run the command `bundle exec jekyll serve --incremental` in the root of this repository, and you should have a site running locally at http://localhost:4000/lugod
+To run the site via Jekyll in the traditional way, follow the instructions [here](https://jekyllrb.com/docs/) to install  Jekyll and Bunler on your local machine. Then cd to the root of this repository and run `bundle exec jekyll serve --incremental`, and you should have a site running locally at http://localhost:4000/lugod
 
 ## Adding Content
 
