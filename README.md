@@ -1,6 +1,7 @@
 # LUGOD Website
 
 This repo holds the codebase and content for the new LUGOD website.
+Currently the site is not live but can be viewed on github pages at https://davislug.github.io/lugod.org/
 
 ## Contributing
 
