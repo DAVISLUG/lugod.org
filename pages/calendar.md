@@ -1,8 +1,8 @@
 ---
 layout: calendar
-title: LUGOD Events List
+title: LUGOD Events
 csv_file: /events.csv
-caption: LUGOD Events List
+caption: LUGOD Events
 
 ---
 
