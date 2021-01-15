@@ -1,25 +1,30 @@
 # LUGOD Website
 
-This repo holds the codebase and content for the new LUGOD website (https://lugod.org).
-This version of the site is not yet deployed, but can be viewed on github pages at https://davislug.github.io/lugod.org/
+This repo holds the codebase and content for the new LUGOD website.
+This code is not yet deployed to production at https://www.lugod.org, but can
+be viewed now on github pages at https://davislug.github.io/lugod.org/
 
 ## Local Development
 
-If you'd like to make changes to the site, it is often useful to see a local copy of your changes before pushing to the live site.
-To setup a local copy of the site, first clone this repo:
+If you'd like to contribute changes to the site, it's often useful to run a
+copy of the site locally. To do so, first clone this repo
 ```
 git clone https://github.com/DAVISLUG/lugod.org.git
 ```
 
 ### Docker
 
-If you have docker-compose  installed, run `docker-compose up` and you'll have copy of the site running at http://localhost:4000/lugod.org/
+If you don't have Docker installed, [go get it!](https://docs.docker.com/get-docker/)
+along with [docker-compose](https://docs.docker.com/compose/install/).
+Once you have these, you can simply run `docker-compose up` and you'll have a
+copy of the site running at http://localhost:4000/lugod.org/
 
 ### Jekyll + Bundler
 
-If you don't have docker, go get it! But if you can't for whatever reason, you can run the site via Jekyll the old fashioned way.
-First, install Jekyll and Bundler by following the official instructions [here](https://jekyllrb.com/docs/).
-Then, go to the root of this repository and run `bundle exec jekyll serve --incremental`. You should now have a local site being served at http://localhost:4000/lugod.org/
+If you can't use Docker or prefer not to, you can run the site via Jekyll the old fashioned way.
+First, install Jekyll and Bundler by following the [official instructions](https://jekyllrb.com/docs/).
+Then, `cd` to the root of this repository and run `bundle exec jekyll serve --incremental`.
+You should now have a local site being served at http://localhost:4000/lugod.org/
 
 ## Adding Content
 
